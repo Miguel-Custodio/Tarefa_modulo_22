@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBAC Tech Talks</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="images/birthday-1835443_1280.jpg" alt="birthday">
+            <p class="hero__text">
+                Você foi convidado para comemorar minha festa de aniversário que comeca em <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Casa da Mãe Joana - Perdizes - São Paulo
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        Sua presença
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        22/11/2023 às 12hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">Confirme sua participação</a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--circo">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title"> Temática - Circo</h2>
+                <p class="event__details__description">
+                    A festa sera tematica, portanto venha com trajes apropriados do tema da festa, tema este que sera de Circo.
+                </p>
+            </div>
+            <img class="event__image" src="images/balloons-1786430_1280.jpg" alt="balloons">
+        </div>
+    </section>
+    <section class="event event--bebidas event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title"> Bebidas</h2>
+                <p class="event__details__description">
+                    Não seja mao de vaca traga as suas bebidas e escolha boas bebidas, lembre-se que voce quem vai beber.
+                </p>
+            </div>
+            <img class="event__image" src="images/champagner-1071356_1280.jpg" alt="champagner">
+        </div>
+    </section>
+    <section class="event event--presentes">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title"> Presentes</h2>
+                <p class="event__details__description">
+                    Não sera nescessario trazer presentes, mas se fizer questão pegue o valor e doe para alguma instituição.
+                </p>
+            </div>
+            <img class="event__image" src="images/presents-6904620_1280.jpg" alt="presentes">
+        </div>
+    </section>
+    <section class="event event--apresentacao event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title"> Apresentações</h2>
+                <p class="event__details__description">
+                    Venha preparado, pois teremos varias apresentações durante a festa.
+                </p>
+            </div>
+            <img class="event__image" src="images/firedancer-144544_1280.jpg" alt="firedancer">
+        </div>
+    </section>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
